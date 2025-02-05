@@ -122,7 +122,7 @@ const Login = () => {
               </div>
             </div>
             <div className='mt-4'>
-              <button className='bg-green-600 text-white px-4 py-2 rounded-full  hover:scale-110 transition-all mt-5'>Login</button>
+              <button type="submit" className='bg-green-600 text-white px-4 py-2 rounded-full  hover:scale-110 transition-all mt-5'>Login</button>
             </div>
           </form>
           <p className="">Don't have a account?<Link to={"/signup"} className='hover:text-red-600'>Signup</Link></p>

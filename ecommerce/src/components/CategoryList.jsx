@@ -21,7 +21,7 @@ const CategoryList = () => {
 
 
   return (
-    <div className='flex justify-between p-5 gap-5 overflow-scroll scrollbar-none'>
+    <div className='flex justify-between p-5 gap-5 flex-wrap-reverse'>
       {
         loading ? (
           categoryLoading.map((el, index) => {
